@@ -1,0 +1,20 @@
+{
+  "name": "mbed-os",
+  "version": "3.0.0-beta",
+  "description": "ARM mbed OS",
+  "keywords": [],
+  "author": "Hugo Vincent <hugo.vincent@arm.com>",
+  "repository": {
+    "url": "https://github.com/ARMmbed/mbed-os.git",
+    "type": "git"
+  },
+  "homepage": "https://github.com/ARMmbed/mbed-os",
+  "licenses": [
+    {
+      "url": "https://spdx.org/licenses/Apache-2.0",
+      "type": "Apache-2.0"
+    }
+  ],
+  "dependencies": {},
+  "targetDependencies": {}
+}
