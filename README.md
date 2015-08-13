@@ -182,4 +182,5 @@ We also have a number of examples to help you get started:
 * [example-asynch-spi](https://github.com/ARMmbed/example-asynch-spi)
 * [mbed-client-example-6lowpan](https://github.com/ARMmbed/mbed-client-example-6lowpan)
 * [uvisor-helloworld](https://github.com/ARMmbed/uvisor-helloworld)
+* [ble-examples](https://github.com/ARMmbed/ble-examples)
 

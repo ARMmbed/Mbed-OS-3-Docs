@@ -1,0 +1,65 @@
+{
+    "$comment": "Note that the format of this file will change when we better represent the multiple examples present in some of the repos listed below.",
+    "example-asynch-spi": {
+        "url": "https://github.com/ARMmbed/example-asynch-spi",
+        "workingTargets": [
+            "frdm-k64f-gcc",
+            "frdm-k64f-armcc"
+        ]
+    },
+    "example-asynch-serial": {
+        "url": "https://github.com/ARMmbed/example-asynch-serial",
+        "workingTargets": [
+            "frdm-k64f-gcc",
+            "frdm-k64f-armcc"
+        ]
+    },
+    "example-asynch-i2c": {
+        "url": "https://github.com/ARMmbed/example-asynch-i2c",
+        "workingTargets": [
+            "frdm-k64f-gcc",
+            "frdm-k64f-armcc"
+        ]
+    },
+    "mbed-example-network": {
+        "url": "https://github.com/ARMmbed/mbed-example-network",
+        "workingTargets": [
+            "frdm-k64f-gcc",
+            "frdm-k64f-armcc"
+        ]
+    },
+    "mbed-client-examples": {
+        "url": "https://github.com/ARMmbed/mbed-client-examples",
+        "workingTargets": [
+            "frdm-k64f-gcc",
+            "frdm-k64f-armcc"
+        ]
+    },
+    "mbed-client-example-6lowpan": {
+        "url": "https://github.com/ARMmbed/mbed-client-example-6lowpan",
+        "workingTargets": [
+            "frdm-k64f-gcc"
+        ]
+    },
+    "ble-examples": {
+        "url": "https://github.com/ARMmbed/ble-examples",
+        "workingTargets": [
+            "nrf51dk-gcc",
+            "nrf51dk-armcc"
+        ]
+    },
+    "mbedtls": {
+        "url": "https://github.com/ARMmbed/mbedtls-examples",
+        "workingTargets": [
+            "frdm-k64f-gcc",
+            "frdm-k64f-armcc"
+        ]
+    },
+    "uvisor-helloworld": {
+        "url": "https://github.com/ARMmbed/uvisor-helloworld",
+        "workingTargets": [
+            "frdm-k64f-gcc"
+        ]
+    }
+}
+
