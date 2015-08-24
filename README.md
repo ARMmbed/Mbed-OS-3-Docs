@@ -176,7 +176,6 @@ We also have a number of examples to help you get started:
 
 * [mbed-client-examples](https://github.com/ARMmbed/mbed-client-examples)
 * [mbed-example-network](https://github.com/ARMmbed/mbed-example-network)
-* [mbedtls-examples](https://github.com/ARMmbed/mbedtls-examples)
 * [example-asynch-i2c](https://github.com/ARMmbed/example-asynch-i2c)
 * [example-asynch-serial](https://github.com/ARMmbed/example-asynch-serial)
 * [example-asynch-spi](https://github.com/ARMmbed/example-asynch-spi)
