@@ -7,7 +7,8 @@ welcome contributions and bug reports.
 * If you want to submit a patch, please read the
   [contribution guide](Contributing to mbed.md). Note that we have a
   [Contributor Agreement](http://developer.mbed.org/contributor_agreement/)
-  that must be agreed to before contributions can be merged.
+  that must be agreed to before contributions can be merged. To agree to the
+  contributor agreement, you need to have an mbed.com account and be logged in.
 
 *We only accept bug reports and pull requests on GitHub*.
 
@@ -20,7 +21,7 @@ welcome contributions and bug reports.
   to get advice from the mbed Team. This will help streamline getting your pull
   request merged.
 
-* If you work for an [mbed Partner company](http://mbed.com/ecosystem/partners/),
+* If you work for an [mbed Partner company](http://www.mbed.com/en/partners/our-partners/),
   you will have a partner manager assigned to you who can help you navigate the
   process and get the best out of your partnership.
 
