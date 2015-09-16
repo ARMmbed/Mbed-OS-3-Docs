@@ -1,7 +1,7 @@
 # ARM mbed OS
 
-Welcome to ARM mbed OS, a new operating system for ARM microcontrollers,
-designed for the Internet of Things.
+Welcome to [ARM mbed OS](http://www.mbed.com/en/development/software/mbed-os/),
+a new operating system for ARM microcontrollers, designed for the Internet of Things.
 
 mbed OS is comprised of a number of software components, combined together and
 built using [yotta](http://docs.yottabuild.org/). This means code lives in a
@@ -14,6 +14,14 @@ maturing, and many things will change. In particular, module names, repo URLs,
 APIs, header file names, configuration parameters and any other details can and
 will change. We'll try to mitigate the imposition that these changes have on
 your code where possible, but please expect backwards-incompatible changes.
+
+## Getting Started
+
+We have getting started documentation on our
+[docs.mbed.com](https://docs.mbed.com/docs/getting-started-mbed-os/en/latest/GettingStartedmbedOS/)
+site.
+
+## Code
 
 The code for mbed OS can be found in these repos:
 
@@ -154,8 +162,9 @@ we support building mbed OS for. Currently we only support the following boards:
 1. [ST STM32F429I Discovery](http://www.st.com/web/catalog/tools/FM116/SC959/SS1532/PF259090)
    board -- based on the STM32F429ZIT6 microcontroller with 2 MB of Flash memory,
    256 KB of RAM, and a Cortex-M4 (with FPU and DSP) that can be clocked up to
-   180 MHz. Currently this board and MCU is not as well supported as the K64F,
-   especially if you want to use uVisor or networking.
+   180 MHz. **Currently this board and MCU is not as well supported as the K64F,
+   especially if you want to use uVisor, networking or mbed TLS (which are not yet
+   supported).**
   * [target-st-stm32f429i-disco](https://github.com/ARMmbed/target-st-stm32f429i-disco)
   * NOTE: we don't yet support armcc for this target.
 1. [Nordic nRF51-DK](https://developer.mbed.org/platforms/Nordic-nRF51-DK/)
