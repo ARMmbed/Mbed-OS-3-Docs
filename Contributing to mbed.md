@@ -10,6 +10,8 @@ that contributions match our code style, which is documented
 
 - Before contributing an enhancement (new feature, new port etc) please start by [discussing it on the forums](http://forums.mbed.com/c/mbed-os) to avoid duplication of work - as we or others might work on a related feature already. This will help streamline your pull request for getting it merged quickly.
 - Please create seperate patches for functional patches and form patches. Form patches are effectively just whitespace changes. As part of our security review of incoming patches we run an whitespace-unaware diff that ignores tabs, spaces, newlines etc. The resulting diff of a form patch must be zero differnce to the master when ignoring whitespaces and linefeeds.
+  - by using ```git diff --check HEAD~1``` you can highlight whitespace errors in your last commit
+  - with ```git diff --minimal --word-diff-regex=[^[:space:]] --word-diff=porcelain -w HEAD~1``` you can highlight just the functional changes
 - Patch contributions can be only accepted through github by creating pull request from forked versions of our repositories. This allows us to review the contributions in a user friendly and reliable way under public scrutiny.
 
 ## Contributor License Agreement
