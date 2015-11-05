@@ -280,7 +280,7 @@ archive.
 This release comprises the following yotta modules and their versions:
 
 | Module                             | Version |
-|------------------------------------+---------|
+|------------------------------------|---------|
 | `atmel-rf-driver`                  |   1.0.1 |
 | `ble`                              |   2.0.3 |
 | `BLE_URIBeacon`                    |   0.0.1 |
