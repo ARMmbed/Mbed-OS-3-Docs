@@ -25,14 +25,9 @@ names and configuration parameters. We'll try to mitigate the impact that these
 changes have on your code where possible, but please expect backwards-incompatible
 changes.
 
-We use [semantic versioning](http://semver.org) for the modules in mbed OS. This
-means that you can tell from the version number of a module what's changed: an
-increase in the major version indicates a backwards incompatible change, and the
-minor and patch versions are used for backwards compatible features and bug-fixes
-respectively. When you use yotta to build an application that depends on a module,
-you can specify which sort of updates you will allow updates to. For more
-information on how yotta uses version specifications, see the
-[yotta documentation](http://yottadocs.mbed.com/reference/module.html#dependencies).
+Note that in this release we're changing our version numbering scheme for mbed
+OS releases, to a calendar-based (year and month YY.MM) scheme. This release (15.11)
+has previously been called 3.0 in some communications.
 
 ## Collaboration
 
@@ -276,6 +271,15 @@ For further information, please start with the README in the root directory of t
 archive.
 
 ## Module versions in this release
+
+We use [semantic versioning](http://semver.org) for the modules in mbed OS. This
+means that you can tell from the version number of a module what's changed: an
+increase in the major version indicates a backwards incompatible change, and the
+minor and patch versions are used for backwards compatible features and bug-fixes
+respectively. When you use yotta to build an application that depends on a module,
+you can specify which sort of updates you will allow updates to. For more
+information on how yotta uses version specifications, see the
+[yotta documentation](http://yottadocs.mbed.com/reference/module.html#dependencies).
 
 This release comprises the following yotta modules and their versions:
 
