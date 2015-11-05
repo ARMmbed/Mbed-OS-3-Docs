@@ -35,9 +35,9 @@ you can see in their public GitHub repositories.
 If you are using this release on Microsoft Windows, please be advised that
 because of the way Windows handles filename and paths, you may have problems
 if you attempt to use this in a deep directory hierarchy with a long
-path name (e.g. `C:\some_long_directory_over_one_hundred_characters_long\`). If
-you experience problems unpacking or building this release, please try it in a
-location with a shorter path before filing a bug. Thanks.
+path name (e.g. `c:\some\very\long\path`). If you experience problems
+unpacking or building this release, please try it in a location with a
+shorter path before filing a bug. Thanks.
 
 ***
 
