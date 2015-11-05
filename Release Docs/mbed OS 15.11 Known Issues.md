@@ -15,7 +15,7 @@ the problem, as well as workarounds if those are possible. For items filed throu
 GitHub, we’ve included a link to the issue so that you can follow the discussion
 and code - or even suggest a solution.
 
-For more information about an issue, contact us on the [mbed forums](https://forums.mbed.com).
+For more information about an issue, contact us on the [mbed forums](http://forums.mbed.com).
 
 ### Other information not in this document
 
