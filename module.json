@@ -1,6 +1,6 @@
 {
   "name": "mbed-os",
-  "version": "3.0.0-beta",
+  "version": "15.11",
   "description": "ARM mbed OS",
   "keywords": [],
   "author": "Hugo Vincent <hugo.vincent@arm.com>",
