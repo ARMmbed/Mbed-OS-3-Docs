@@ -79,7 +79,7 @@ The following features are currently experimental:
     plans for the HAL. As with all other parts of the OS, we will signal
     incompatible changes to the HAL through the use of semantic versioning.
 * `uvisor`
-  * This version of the uVisor is an early tech preview, which has incomplete
+  * This version of the uVisor is an early tech preview, which has partial
     implementation of the security features that will be present in future versions.
     Please use this release for ensuring compatibility with uVisor (interrupt handling,
     memory protection model etc) but do not rely on it for security.
@@ -96,10 +96,9 @@ The following targets have experimental support:
 
 * NXP JN5179
 * ST Nucleo F401 and DISCO-F429I
-* SiLabs EFM32 Giant Gecko, EFM32 Wonder Gecko, EFM32 Happy Gecko and
-  ThunderBoard Wear
 * Nordic nRF51 DK and nRF51822-mKIT.
 * BBC micro:bit.
+* SiLabs EFM32 Giant Gecko and EFM32 Happy Gecko
 
 This document will be updated shortly with instructions on how to use mbed OS on
 these targets.
