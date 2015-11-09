@@ -1,25 +1,37 @@
 # ARM mbed OS
 
 Welcome to [ARM mbed OS](http://www.mbed.com/en/development/software/mbed-os/),
-a new operating system for ARM microcontrollers, designed for the Internet of Things.
+the new operating system for ARM microcontrollers designed for the Internet of Things.
 
-mbed OS is comprised of a number of software components, combined together and
-built using [yotta](http://docs.yottabuild.org/). This means code lives in a
-number of repositories. This repository serves as an entry point for mbed OS,
-and as a central location for documentation, and for filing bugs which span
-multiple components.
+mbed OS is modular: its code base comprises  a number of software components, combined
+together and built using [yotta](http://docs.yottabuild.org/). This means the code
+lives in a number of repositories, each covering a distinct functionality.
 
-Note that this is a **beta release** -- this means that the software is still
-maturing, and many things will change. In particular, module names, repo URLs,
-APIs, header file names, configuration parameters and any other details can and
-will change. We'll try to mitigate the imposition that these changes have on
-your code where possible, but please expect backwards-incompatible changes.
+This repository contains no code. Instead, we're using it as an entry point for
+mbed OS, as well as a central location for release-related documentation (such as
+Known Issues), and for filing bugs that span multiple components.
+
+## Current release
+
+Note that this is a technology preview release, offering you early access to key
+features and innovations enabling you to test functionality. This release is not
+yet suitable for volume production use. The software is still maturing, and a
+number of things will change, including module names, repository URLs, APIs, header
+file names and configuration parameters. We'll try to mitigate the impact that these
+changes have on your code where possible, but please expect backwards-incompatible
+changes.
+
+Note that in this release we're changing our version numbering scheme for mbed OS
+releases, to a calendar-based (year and month YY.MM) scheme. This release (15.11)
+has previously been called 3.0 in some communications
 
 ## Getting Started
 
-We have getting started documentation on our
-[docs.mbed.com](https://docs.mbed.com/docs/getting-started-mbed-os/en/latest/GettingStartedmbedOS/)
-site.
+We have [getting started](https://docs.mbed.com/docs/getting-started-mbed-os/en/latest/)
+documentation on our [docs.mbed.com](https://docs.mbed.com/) site. It includes
+an installation guide, a quick start guide and a full developer guide.
+
+We also have a number of examples to help you get started:
 
 ## Code
 
@@ -181,7 +193,6 @@ Finally, there are a number of yotta targets that provide shared functionality:
 * [target-mbed-armcc](https://github.com/ARMmbed/target-mbed-armcc)
 * [target-mbed-gcc](https://github.com/ARMmbed/target-mbed-gcc)
 
-We also have a number of examples to help you get started:
 
 * [mbed-client-examples](https://github.com/ARMmbed/mbed-client-examples)
 * [mbed-example-network](https://github.com/ARMmbed/mbed-example-network)
