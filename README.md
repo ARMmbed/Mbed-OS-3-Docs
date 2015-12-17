@@ -73,6 +73,12 @@ The code for mbed OS can be found in these repos:
         generic implementation of CMSIS-Core for the STM32F4 family.
         * [cmsis-core-stm32f429xi](https://github.com/ARMmbed/cmsis-core-stm32f429xi)
           -- specific implementation of CMSIS-Core for the STM32F429.
+    * [cmsis-core-silabs](https://github.com/ARMmbed/cmsis-core-silabs) --
+      generic implementation of CMSIS-Core for Silicon Labs devices.
+      * [cmsis-core-efm32gg](https://github.com/ARMmbed/cmsis-core-efm32gg)
+        -- specific implementation of CMSIS-Core for the EFM32 Giant Gecko family of MCUs.
+      * [cmsis-core-efm32hg](https://github.com/ARMmbed/cmsis-core-efm32hg)
+        -- specific implementation of CMSIS-Core for the EFM32 Happy Gecko family of MCUs.
   * [mbed-drivers](https://github.com/ARMmbed/mbed-drivers) -- abstract drivers
     for common hardware peripherals and communications interfaces (SPI, I2C
     etc). Provides a higher level interface than the mbed HAL; these are the
@@ -101,6 +107,12 @@ The code for mbed OS can be found in these repos:
           -- implementation for ST MCUs using the STM32CubeF4 library.
           * [mbed-hal-st-stm32f429zi](https://github.com/ARMmbed/mbed-hal-st-stm32f429zi)
             -- implementation for the STM32F429.
+    * [mbed-hal-silabs](https://github.com/ARMmbed/mbed-hal-silabs) --
+      implementation for Silicon Labs devices.
+      * [mbed-hal-efm32gg](https://github.com/ARMmbed/mbed-hal-efm32gg)
+        -- implementation for the EFM32 Giant Gecko MCUs.
+      * [mbed-hal-efm32hg](https://github.com/ARMmbed/mbed-hal-efm32hg)
+        -- implementation for the EFM32 Happy Gecko MCUs.
   * [atmel-rf-driver](https://github.com/ARMmbed/atmel-rf-driver) -- PHY driver
     for the Atmel AT86RF2xx series of 802.15.4 radios, for mesh networking in
     mbed OS.
@@ -187,6 +199,22 @@ we support building mbed OS for. Currently we only support the following boards:
    board is best for simpler applications such as BLE peripherals.
   * [target-nrf51dk-gcc](https://github.com/rgrover/target-nrf51dk-gcc)
   * [target-nrf51dk-armcc](https://github.com/ARMmbed/target-nrf51dk-armcc)
+1. [EFM32 Giant Gecko STK](https://www.mbed.com/en/development/hardware/boards/siliconlabs/efm32giantgecko/)
+   board –- Low-power Cortex-M3 with 1 MB of flash, 128 kB of RAM and a lot of
+   low-power peripherals. This board allows development of bigger applications
+   with long battery life, such as wearables. **Currently this board and MCU is
+   not as well supported as the K64F, especially if you want to use uVisor,
+   networking or mbed TLS (which are not yet supported).**
+  * [target-efm32gg-stk-gcc](https://github.com/ARMmbed/target-efm32gg-stk-gcc)
+  * NOTE: we don't yet support armcc for this target.
+1. [EFM32 Happy Gecko STK](https://www.mbed.com/en/development/hardware/boards/siliconlabs/efm32happygecko/)
+   board –- Low-power Cortex-M0+ with 64 kB of flash and 8 kB of RAM and a lot
+   of low-power peripherals. This board is better suited for development of
+   smaller nodes with power and space constraints. **Currently this board and
+   MCU is not as well supported as the K64F, especially if you want to use
+   uVisor, networking or mbed TLS (which are not yet supported).**
+  * [target-efm32hg-stk-gcc](https://github.com/ARMmbed/target-efm32hg-stk-gcc)
+  * NOTE: we don't yet support armcc for this target.
 
 Finally, there are a number of yotta targets that provide shared functionality:
 
