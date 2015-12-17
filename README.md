@@ -154,8 +154,8 @@ The code for mbed OS can be found in these repos:
     tests.
   * [mbed-ls](https://github.com/ARMmbed/mbed-ls) -- utility for detecting and listing
     mbed Enabled development boards attached to the development host.
-  * [cpputest](https://github.com/ARMmbed/cpputest) -- unit testing framework
-    for C++.
+  * [utest](https://github.com/ARMmbed/utest) -- simple test harness for C++ with greentea integration.
+  * [unity](https://github.com/ARMmbed/unity) -- utest compatible test macros from the unity test framework
 
 The following modules define the [yotta targets](http://docs.yottabuild.org/tutorial/targets.html)
 we support building mbed OS for. Currently we only support the following boards:
@@ -202,4 +202,3 @@ Finally, there are a number of yotta targets that provide shared functionality:
 * [mbed-client-example-6lowpan](https://github.com/ARMmbed/mbed-client-example-6lowpan)
 * [uvisor-helloworld](https://github.com/ARMmbed/uvisor-helloworld)
 * [ble-examples](https://github.com/ARMmbed/ble-examples)
-
