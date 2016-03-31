@@ -2,7 +2,7 @@
 
 ## About this document
 
-This is the list of known issues for the This is the list of known issues for the [16.03 release of mbed OS and related tools](Release_Note.md).
+This is the list of known issues for the This is the list of known issues for the [16.03 release of mbed OS and related tools](https://github.com/ARMmbed/mbed-os/blob/master/mbed_OS_Release_note_16_03.md).
 
 We publish mbed OS as a collection of modules on GitHub. Issues are raised in the specific repositories and then tracked internally. 
 
@@ -117,4 +117,4 @@ Other tools such as [yotta](https://github.com/ARMmbed/yotta) and [Greentea](htt
 
 # Known issues for mbed Client
 
-The mbed Client known issues list is available as [a separate document](../mbed_Client/Known_Issues.md).
+The mbed Client known issues list is available as [a separate document](https://docs.mbed.com/docs/release-documents/en/latest/16_03/mbed_Client/Known_Issues/).
