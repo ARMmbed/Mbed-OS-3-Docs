@@ -89,10 +89,10 @@ The mbed HAL APIs are subject to change. The current HAL APIs are an evolution o
 
 * Clarified doxygen and generic documentation.
 * K64F: 
-* Fixed bug related to SPI transfers.
-* Removed console specific code from mbed-hal-ksdk-mcu.
-* Use the baud rate defined in yotta config.
-* Use CRC to generate an Ethernet MAC address.
+ * Fixed bug related to SPI transfers.
+ * Removed console specific code from mbed-hal-ksdk-mcu.
+ * Use the baud rate defined in yotta config.
+ * Use CRC to generate an Ethernet MAC address.
 
 ## minar 
 
@@ -132,15 +132,15 @@ Since the Thread standard is still unapproved, this API is considered experiment
 
 * Major version updated to 4.0.
 * New APIs:
-* MLE router and host lifetime configuration API.
-* MLE neighbor limits configuration API.
-* MLE token bucket configuration API.
-* API for adding and deleting routers.
-* FHSS API.
+ * MLE router and host lifetime configuration API.
+ * MLE neighbor limits configuration API.
+ * MLE token bucket configuration API.
+ * API for adding and deleting routers.
+ * FHSS API.
 * API changes:
-* Renamed the function `arm_nwk_6lowpan_link_scan_paramameter_set()` to `arm_nwk_6lowpan_link_scan_parameter_set()`.
-* Changed channel mask settings API.
-* Changes the parameters of function `cca_start()`.
+ * Renamed the function `arm_nwk_6lowpan_link_scan_paramameter_set()` to `arm_nwk_6lowpan_link_scan_parameter_set()`. 
+ * Changed channel mask settings API.
+ * Changed the parameters of function `cca_start()`.
 
 For instructions on updating your modules, see [https://docs.mbed.com/docs/arm-ipv66lowpan-stack/en/latest/api_changes_to_v4_0_0/index.html](https://docs.mbed.com/docs/arm-ipv66lowpan-stack/en/latest/api_changes_to_v4_0_0/index.html).
 
@@ -157,14 +157,14 @@ The whitelist API available in the GAP module is subject to change. All experime
 * Improved shutdown behavior. The BLE stack powers down fully and consistently with shutdown.The user can register hooks that will get called when the stack is shut down.
 * Improved UUID construction.
 * Add new APIs:
-* Handle characteristic descriptor discovery.
-* Allow whitelisting. This feature is still experimental.
-* Allow elevating security settings on a particular connection.
+ * Handle characteristic descriptor discovery.
+ * Allow whitelisting. This feature is still experimental.
+ * Allow elevating security settings on a particular connection.
 * Fix commit of advertisement payload.
 * NRF51: 
-* Use Nordic SDK v10.
-* NRF51: Fix handles value of characteristics descriptors.
-* Fix update of GAP state.
+ * Use Nordic SDK v10.
+ * NRF51: Fix handles value of characteristics descriptors.
+ * Fix update of GAP state.
 
 ## mbed-mesh-api 
 
@@ -212,24 +212,24 @@ Porting uVisor to a whole range of devices has [been greatly simplified since th
 #### Changes since last release
 
 * Improved build system:
-* Reduced need for hardware-specific implementations.
-* Introducing uVisor configurations: A unified point for hardware-specific configuration details that defines a single uVisor release binary.
-* New centralized build system. A single make in the top folder builds all configurations for all platforms in release and debug mode.
-* See our [porting guide](https://github.com/ARMmbed/uvisor/blob/master/docs/PORTING.md) for updated information.
+ * Reduced need for hardware-specific implementations.
+ * Introducing uVisor configurations: A unified point for hardware-specific configuration details that defines a single uVisor release binary.
+ * New centralized build system. A single make in the top folder builds all configurations for all platforms in release and debug mode.
+ * See our [porting guide](https://github.com/ARMmbed/uvisor/blob/master/docs/PORTING.md) for updated information.
 * New features:
-* [New APIs](https://github.com/ARMmbed/uvisor-lib/blob/master/DOCUMENTATION.md#box-identity) to read current box ID and caller box ID.
-* New concept of box namespaces to authorize cross-box/cross-device API communication.
-* Added context switching features in UVISOR_DISABLED mode.
-* Extended SVCall handler table.
-* Global vMPU configurations for ARMv7-M: Shared vs. Standalone SRAM.
-* MadeMake ACLs optional in secure box configuration.
-* Debug boxes (prototype).
+ * [New APIs](https://github.com/ARMmbed/uvisor-lib/blob/master/DOCUMENTATION.md#box-identity) to read current box ID and caller box ID.
+ * New concept of box namespaces to authorize cross-box/cross-device API communication.
+ * Added context switching features in UVISOR_DISABLED mode.
+ * Extended SVCall handler table.
+ * Global vMPU configurations for ARMv7-M: Shared vs. Standalone SRAM.
+ * MadeMake ACLs optional in secure box configuration.
+ * Debug boxes (prototype).
 * New platforms:
-* Now supporting the entire Cortex-M3 and Cortex-M4 based EFM32 family from Silicon Labs.
+ * Now supporting the entire Cortex-M3 and Cortex-M4 based EFM32 family from Silicon Labs.
 * Breaking APIs:
-* Applications using UVISOR_BOX_CONFIG(...) will not work after this update if they do not include a call to the UVISOR_BOX_NAMESPACE(...) as well. 
-* All other APIs are backwards compatible.
-* This update only affects applications actively using uVisor, not yotta modules depending on it.
+ * Applications using UVISOR_BOX_CONFIG(...) will not work after this update if they do not include a call to the UVISOR_BOX_NAMESPACE(...) as well. 
+ * All other APIs are backwards compatible.
+ * This update only affects applications actively using uVisor, not yotta modules depending on it.
 
 #### Security disclaimer
 
@@ -300,10 +300,10 @@ Please note that mbed-ls does not support OS X El Capitan.
 ## Changes since last release
 
 * New APIs:
-* Setting the max-age of a resource value. See [https://tools.ietf.org/html/draft-ietf-core-coap-09#section-5.10.6](https://tools.ietf.org/html/draft-ietf-core-coap-09#section-5.10.6).
-* Omitting registered resources' URI path from the registration message's body (which is sent from the client to the server). 
-* Allowing the client to send a delayed response to POST requests. See [https://tools.ietf.org/html/draft-ietf-core-coap-09#section-5.2.2](https://tools.ietf.org/html/draft-ietf-core-coap-09#section-5.2.2).
-* Getting Object and Object Instance information from Resource Object.
+ * Setting the max-age of a resource value. See [https://tools.ietf.org/html/draft-ietf-core-coap-09#section-5.10.6](https://tools.ietf.org/html/draft-ietf-core-coap-09#section-5.10.6).
+ * Omitting registered resources' URI path from the registration message's body (which is sent from the client to the server). 
+ * Allowing the client to send a delayed response to POST requests. See [https://tools.ietf.org/html/draft-ietf-core-coap-09#section-5.2.2](https://tools.ietf.org/html/draft-ietf-core-coap-09#section-5.2.2).
+ * Getting Object and Object Instance information from Resource Object.
 * Added a new class for handling arguments received from POST method for Resource. 
 * Enabled CoAP Blockwise payload handling by client. See  [https://tools.ietf.org/html/draft-ietf-core-block-08#section-2](https://tools.ietf.org/html/draft-ietf-core-block-08#section-2).
 * Added support for handling observation cancellation through a RESET message from Device Connector Server.
@@ -311,7 +311,7 @@ Please note that mbed-ls does not support OS X El Capitan.
 
 # Known issues 
 
-The known issues list for this release is available as [a separate document](Known_Issues.md)
+The known issues list for this release is available as [a separate document](https://github.com/ARMmbed/mbed-os/blob/master/Release%20Docs/mbed_OS_Known_Issues_16_03.md)
 
 # Other ways of accessing this release 
 
