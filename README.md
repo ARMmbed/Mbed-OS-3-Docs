@@ -1,4 +1,6 @@
-# ARM mbed OS
+# ARM Mbed OS 3
+
+**Please note: this is the Mbed OS 3 documentation source repo and is no longer maintained. For the latest Mbed OS documentation see the [Mbed OS 5 site](https://os.mbed.com/docs/).**
 
 Welcome to [ARM mbed OS](http://www.mbed.com/en/development/software/mbed-os/),
 the new operating system for ARM microcontrollers designed for the Internet of Things.
