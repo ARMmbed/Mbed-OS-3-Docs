@@ -5,12 +5,12 @@
 Welcome to [ARM mbed OS](http://www.mbed.com/en/development/software/mbed-os/),
 the new operating system for ARM microcontrollers designed for the Internet of Things.
 
-mbed OS is modular: its code base comprises  a number of software components, combined
+mbed OS 3 is modular: its code base comprises  a number of software components, combined
 together and built using [yotta](http://docs.yottabuild.org/). This means the code
 lives in a number of repositories, each covering a distinct functionality.
 
 This repository contains no code. Instead, we're using it as an entry point for
-mbed OS, as well as a central location for release-related documentation (such as
+mbed OS 3, as well as a central location for release-related documentation (such as
 Known Issues), and for filing bugs that span multiple components.
 
 ## Current release
