@@ -1,31 +1,17 @@
 # ARM Mbed OS 3
 
-**Please note: this is the Mbed OS 3 documentation source repo and is no longer maintained. For the latest Mbed OS documentation see the [Mbed OS 5 site](https://os.mbed.com/docs/).**
+**Please note: Mbed OS 3 documentation is no longer maintained. For the latest Mbed OS documentation see the [Mbed OS 5 site](https://os.mbed.com/docs/).**
 
 Welcome to [ARM mbed OS](http://www.mbed.com/en/development/software/mbed-os/),
-the new operating system for ARM microcontrollers designed for the Internet of Things.
+an operating system for ARM microcontrollers designed for the Internet of Things.
 
-mbed OS 3 is modular: its code base comprises  a number of software components, combined
+mbed OS 3 is modular: its code base comprises a number of software components, combined
 together and built using [yotta](http://docs.yottabuild.org/). This means the code
 lives in a number of repositories, each covering a distinct functionality.
 
-This repository contains no code. Instead, we're using it as an entry point for
-mbed OS 3, as well as a central location for release-related documentation (such as
-Known Issues), and for filing bugs that span multiple components.
-
 ## Current release
 
-Note that this is a technology preview release, offering you early access to key
-features and innovations enabling you to test functionality. This release is not
-yet suitable for volume production use. The software is still maturing, and a
-number of things will change, including module names, repository URLs, APIs, header
-file names and configuration parameters. We'll try to mitigate the impact that these
-changes have on your code where possible, but please expect backwards-incompatible
-changes.
-
-Note that in this release we're changing our version numbering scheme for mbed OS
-releases, to a calendar-based (year and month YY.MM) scheme. This release (15.11)
-has previously been called 3.0 in some communications
+We are not working on any new releases for Mbed OS 3. For out latest releases, please see the [Mbed OS 5 releases page](https://os.mbed.com/releases/).
 
 ## Getting Started
 
